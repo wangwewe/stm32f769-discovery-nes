@@ -1,6 +1,9 @@
 # stm32f769-discovery-nes
 NES emulator for the STM32F769 Discovery board, featuring touchscreen controls and WM8994 audio output. Built with STM32CubeIDE.
 
+## Demo Video
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/jQxaTY_RrJA/0.jpg)](https://www.youtube.com/watch?v=jQxaTY_RrJA "NES emulator for the STM32F769 Discovery board")
+
 ## STM32F769 Discovery NES Changelog
 
 1. v0.1: Ported the STM32F469 project to STM32F769I-DISCO, with touchscreen controls and WM8994 audio output.
