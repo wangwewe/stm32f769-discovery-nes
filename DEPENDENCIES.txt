@@ -1,0 +1,8 @@
+Base: user supplied stm32f469-discovery-nes.zip (2026-09-30). NES core and ROMs preserved.
+bsp: https://github.com/STMicroelectronics/32f769idiscovery-bsp.git @ 5d85091bdc55f20ce9476de4a3cec0817146b733
+hal: https://github.com/STMicroelectronics/stm32f7xx-hal-driver.git @ e860c4ff226d0e4ac2837b31960649898b29ee88
+device: https://github.com/STMicroelectronics/cmsis-device-f7.git @ 2352e888e821aa0f4fe549bd5ea81d29c67a3222
+wm8994: https://github.com/STMicroelectronics/stm32-wm8994.git @ 65fc4abeb436d01a9d06de4e8722ec05ed812e41
+adv7533: https://github.com/STMicroelectronics/stm32-adv7533.git @ d772ea912c4f1250491adf7f4a4b1646f3c7c012
+CMSIS core 5.9.0; FT6x06/OTM8009A/NT35510/Common headers retained from user F469 project.
+Full ST audio BSP compiled; input APIs are not called. BSP patched to propagate codec Init and HAL_SAI_Transmit_DMA errors.

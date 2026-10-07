@@ -1,0 +1,7 @@
+Debug/
+Release/
+config.mk
+*.o
+*.d
+*.bak
+.metadata/

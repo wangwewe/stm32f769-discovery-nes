@@ -1,0 +1,4 @@
+Arm GNU 12.3.Rel1, -O3 Cortex-M7 hard-float. Build: 0 errors, 0 warnings.
+Image layout/vector/XML checks: PASS. Embedded ROM byte comparison: PASS.
+Host ROM reader exact-end/overflow/truncation/invalid-index/null tests: PASS.
+Hardware gameplay, LCD, touch and audio: NOT TESTED.

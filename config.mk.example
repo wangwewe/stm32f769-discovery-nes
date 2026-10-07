@@ -1,0 +1,4 @@
+# Copy to config.mk ONLY when arm-none-eabi-gcc is not found.
+# Use forward slashes. Do not add quotes around the value.
+# Replace the example with your actual STM32CubeIDE plugin directory.
+GCC_PATH = C:/ST/STM32CubeIDE_VERSION/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.VERSION/tools/bin
